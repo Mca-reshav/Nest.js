@@ -1,3 +1,6 @@
+//use service by using injectable decorator and use by calling it in constructor then it will get called as return object for all the class listed below
+
+
 import { Controller, Get, Post, HttpCode, Delete, Put, Body, Redirect , Query, Param} from '@nestjs/common';
 import { AppService } from './app.service';
 import { Injectable } from '@nestjs/common';
